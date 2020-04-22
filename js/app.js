@@ -1,3 +1,19 @@
+/*
+
+----------
+TO DO:
+----------
+- Agregar .gitignore (sass-cache, /sass)
+- Agregar 'Add Field' en Campos + Array dinamico
+- Agregar field 'Color' para Header y Footer
+- Formatear Caja de Code Snippet
+- Eliminar template previo al generar uno nuevo
+- Formato CSS general 
+
+*/
+
+
+
 // Variables
 const formulario = document.getElementById('formulario');
 const preview = document.getElementById('preview');
