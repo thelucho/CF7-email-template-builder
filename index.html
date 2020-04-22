@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Template builder for Contact Form 7 emails">
+  <meta name="author" content="Thelucho">
+
+  <title>CF7 Email Template Builder</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-5">
+        <h3 class="mt-5"><i class="fas fa-user-cog"></i> Settings</h3>
+        <p class="lead">Complete with pre-defined file paths!</p>
+        <form id="formulario">
+
+          <div class="form-header">
+            <p class="lead">HEADER</p>
+            <div class="form-group">
+              <input type="text" class="form-control" id="logo-url-header" placeholder="Ej: www.tusitioweb.com">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="logo-img-header"
+                placeholder="Ej: https://tusitioweb.com/img/logo-header.png">
+            </div>
+          </div>
+
+          <div class="form-body">
+            <p class="lead">BODY</p>
+            <div class="form-group">
+              <input type="text" class="form-control" id="asunto" placeholder="Enviado desde: Pagina de Contacto">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo1-nombre" placeholder="Nombre Campo">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo1-shortcode" placeholder="[shortcode]">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo2-nombre" placeholder="Nombre Campo">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo2-shortcode" placeholder="[shortcode]">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo3-nombre" placeholder="Nombre Campo">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo3-shortcode" placeholder="[shortcode]">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo4-nombre" placeholder="Nombre Campo">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo4-shortcode" placeholder="[shortcode]">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo5-nombre" placeholder="Nombre Campo">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="campo5-shortcode" placeholder="[shortcode]">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <p class="lead">FOOTER</p>
+            <div class="form-group">
+              <input type="text" class="form-control" id="logo-url-footer" placeholder="Ej: www.tusitioweb.com">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="logo-img-footer"
+                placeholder="Ej: https://tusitioweb.com/img/logo-footer.png">
+            </div>
+          </div>
+          <!-- <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div> -->
+          <button type="submit" class="btn btn-primary">Update Code</button>
+          <button type="reset" class="btn btn-danger">Reset Form</button>
+        </form>
+      </div>
+
+      <div class="col-lg-7">
+        <h3 class="mt-5"><i class="fas fa-palette"></i> Template Preview</h3>
+
+        <div id="preview"></div>
+
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="mt-5"><i class="fas fa-code"></i> Code Snippet</h3>
+
+            <xmp id="code-box"></xmp>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.slim.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/app.js"></script>
+
+</body>
+
+</html>
