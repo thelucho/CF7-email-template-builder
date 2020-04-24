@@ -2,6 +2,25 @@ body {
     background-color: #f7f7f7;
 }
 
+#formulario {
+    .form-control {
+        font-size: 14px;
+    }
+
+    #bg-color-header, #bg-color-footer {
+        border: none;
+        border-radius: 5px;
+        max-width: 80px;
+        padding-left: 9px;
+        text-transform: lowercase;
+    }
+}
+
+#preview {
+    background-color: #ececec;
+    padding: 15px 0px;
+}
+
 .code-box {
     background-color: #4b525a;
     border-radius: 20px;
@@ -13,4 +32,5 @@ body {
         letter-spacing: -0.7px;
         color: #dede93;
     }
+
 }
